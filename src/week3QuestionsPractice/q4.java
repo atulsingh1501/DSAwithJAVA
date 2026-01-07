@@ -38,3 +38,17 @@ public class q4 {
         Funcn(arr);
     }
 }
+
+//Key points to remember during revision
+//
+//main() → creates the array and calls the function
+//
+//Function → processes the array using loop
+//
+//arr.length → controls loop boundary
+//
+//arr[i] → accesses each element
+//
+//Loop repeats addition for every element
+//
+//Printing is done after loop ends
