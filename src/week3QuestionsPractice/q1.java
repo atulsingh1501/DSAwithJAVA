@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class q1 {
     public static void main(String[] args) {
 //        Given an integer n, reverse the number and print it.
-                Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
                 int n = sc.nextInt();
                 int reverse = 0;
