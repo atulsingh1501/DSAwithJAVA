@@ -1,3 +1,4 @@
+package LeetCode;
 import java.util.Scanner;
 //LeetCode 263
 public class uglynumber {

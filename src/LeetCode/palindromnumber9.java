@@ -1,3 +1,4 @@
+package LeetCode;
 import java.util.Scanner;
 //Palindrome Number leet code 9
 public class palindromnumber9 {
