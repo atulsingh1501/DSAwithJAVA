@@ -1,6 +1,19 @@
 package week4QuestionsPractice;
 import java.util.Scanner;
 public class q14 {
+//    Task:
+//
+//Take marks (0–100) as input
+//
+//Print:
+//
+//A if marks ≥ 90
+//
+//B if marks ≥ 75
+//
+//C if marks ≥ 50
+//
+//Fail otherwise
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int marks = input.nextInt();

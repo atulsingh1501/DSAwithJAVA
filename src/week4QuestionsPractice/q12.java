@@ -1,6 +1,15 @@
 package week4QuestionsPractice;
 import java.util.Scanner;
 public class q12 {
+//    Task reminder:
+//
+//Input: three integers
+//
+//Output: the largest one
+//
+//Use only conditionals (if / else if / else)
+//
+//No loops, no arrays
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int a = input.nextInt();

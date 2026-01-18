@@ -1,6 +1,12 @@
 package week4QuestionsPractice;
 import java.util.Scanner;
 public class q13 {
+//    A year is a leap year if:
+//
+//divisible by 400
+//OR
+//
+//divisible by 4 but not divisible by 100
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int n =  input.nextInt();
