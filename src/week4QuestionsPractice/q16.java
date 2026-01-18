@@ -1,6 +1,13 @@
 package week4QuestionsPractice;
 import java.util.Scanner;
 public class q16 {
+//    Maximum of Two Numbers
+//
+//Write a function that:
+//
+//Takes two integers
+//
+//Returns the greater number
     static int maxNum(int a, int b){
         if(a>b){
             return a;
