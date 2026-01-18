@@ -43,3 +43,5 @@ public class q19 {
         input.close();
     }
 }
+//Why doesn’t evenNumber() have a return statement?
+//Void functions are designed to perform an action (like printing or modifying something) rather than calculate and return a value.
