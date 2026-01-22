@@ -1,6 +1,6 @@
 package DynamicArray;
 import java.util.ArrayList;
-public class ArrayListExample {
+public class O1_ArrayListExample {
     public static void main(String[] args) {
 
         //syntax

@@ -1,7 +1,7 @@
 package DynamicArray;
 import java.util.ArrayList;
 import java.util.Scanner;
-public class ArrayListEx2 {
+public class O2_ArrayListExInput {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         ArrayList<Integer>list = new ArrayList<>(10);
