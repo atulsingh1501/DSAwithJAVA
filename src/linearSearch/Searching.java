@@ -8,12 +8,16 @@ public class Searching {
         System.out.println(ans);
     }
     //search in the array:return the index if item found
+    //otherwise if item not found returm -1
     static int search(int[] arr, int target) {
         if(arr.length == 0){
             return -1;
         }
+        //run for loop
         for(int index = 0; index < arr.length; index++){
-            if(arr[index] == target){
+            //check for element at every index if it is = target
+            int element = arr[index];
+            if(element == target){
                 return index;
             }
         }
