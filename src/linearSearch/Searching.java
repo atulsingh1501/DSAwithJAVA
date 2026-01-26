@@ -3,7 +3,7 @@ package linearSearch;
 public class Searching {
     public static void main(String[] args) {
         int [] arr = {5, 10, 15,36,86,19,61,69,20};
-        int target = 77;
+        int target = 10;
         int ans = search(arr,target);
         System.out.println(ans);
     }
@@ -18,7 +18,7 @@ public class Searching {
             //check for element at every index if it is = target
             int element = arr[index];
             if(element == target){
-                return index;
+                return index; //if you want to return element then at return index write return element and it will give yu a element
             }
         }
         return -1;
