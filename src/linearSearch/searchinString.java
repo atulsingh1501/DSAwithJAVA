@@ -1,6 +1,6 @@
 package linearSearch;
 
-public class q1 {
+public class searchinString {
     static boolean search(String str, char target) {
         if (str.length() == 0) {
             return false;
