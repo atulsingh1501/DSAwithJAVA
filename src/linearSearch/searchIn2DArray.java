@@ -1,3 +1,4 @@
+package linearSearch;
 import java.util.Arrays;
 
 public class searchIn2DArray {
