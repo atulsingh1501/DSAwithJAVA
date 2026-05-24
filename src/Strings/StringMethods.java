@@ -10,7 +10,14 @@ public class StringMethods {
         // of the first occurrence of a specified text in a string (including whitespace)
         System.out.println(txt.charAt(0));// character at a specific position in a string
         System.out.println(txt.charAt(4));  // character at a specific position in a string
+        System.out.println(txt.contains("World"));//true
+// value.OF concert int into strings
+        int num = 5123;
+        String str = String.valueOf(num);
+        System.out.println(num);
+        System.out.println(num + 1);//5124
 
+        //trim
         String name = "  Hina  ";
         System.out.println("Before: [" + name + "]");//The trim() method removes whitespace
         System.out.println("After:  [" + name.trim() + "]");// // from the beginning and the end of a string:

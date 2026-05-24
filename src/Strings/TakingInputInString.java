@@ -5,5 +5,6 @@ public class TakingInputInString {
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
         System.out.println("value:- " + str);
+
     }
 }
