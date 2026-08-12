@@ -20,5 +20,23 @@ public class q5 {
         }else{
             System.out.println("Not Palindrome");
         }
+
+
+        int l = 0,r=str.length()-1;
+        boolean p=true;
+        while (l<r){
+            if(str.charAt(l) == str.charAt(r)){
+                l++;
+                r--;
+            }else {
+                p=false;
+                break;
+            }
+        }
+        if(p){
+            System.out.println("PAL");
+        }else{
+            System.out.println("not");
+        }
     }
 }
