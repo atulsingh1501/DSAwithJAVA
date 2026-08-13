@@ -1,5 +1,5 @@
-package QuestionPractice;
-import java.util.*;
+package QuestionPractice.week9QuestionsPractice;
+
 public class MinMAX {
     public static void main(String[] args) {
         int[] arr = {1, 4, 5, 45, 76, 7, 9,};
