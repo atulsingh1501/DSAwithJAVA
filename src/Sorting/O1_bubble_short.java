@@ -22,6 +22,7 @@ public class O1_bubble_short {
                     int temp = arr[j - 1];
                     arr[j - 1] = arr[j];
                     arr[j] = temp;
+                    System.out.println( "Sorted Array: " + Arrays.toString(arr));
                 }
             }
         }
